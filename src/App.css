@@ -1,0 +1,198 @@
+/* .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 380px;
+  padding: 20px 10px;
+  margin-top: auto;
+  border-radius: 4px;
+  box-shadow: 0 3px 6px 0 #555;
+  background: white;
+  font-family: Montserrat;
+  margin-top:40px
+} */
+
+#label{
+    color: black;
+    margin: 20px auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+img{
+    width: 90px;
+  height: 90px;
+  /* margin: 40px auto; */
+}
+
+#city_lable{
+  color: black;
+  margin: 20px 0px 0px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Verdana;
+}
+
+form{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 20px;
+  /* border: black solid 1px; */
+  border-radius: 2px;
+}
+
+form input{
+    padding: 10px;
+    font-size: 14px;
+    font-family: Verdana;
+    font-weight: bold;
+    width:100%;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+
+form button{
+    background-color: black;
+    font-size: 14px;
+    padding: 0 10px;
+    color: white;
+    cursor: pointer;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+#weatherContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#condition{
+  /* margin: 20px auto auto 20px; */
+  text-transform: capitalize;
+  font-size: 14px;
+}
+  #condition span {
+    font-size: 50px;
+    /* margin-left: -25px; */
+  }
+
+#weatherIcon{
+width: 135px;
+  height: 120px;
+  margin: 5px auto;
+  opacity: 0.8;
+}
+
+#location{
+    margin: 15px auto auto 15px;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    opacity: 0.7;
+}
+
+.weatherInfoLabel{
+  margin-top: 25px;
+  text-transform: capitalize;
+  text-align: center;
+  /* width: 90%; */
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#card-info {
+  width:150px;
+  background: rgba(197, 185, 185, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* color: #fff; */
+  font-size: 24px;
+  text-align: center;
+}
+
+.hourly_card, .weekly_card{
+  background: rgba(197, 185, 185, 0.3);
+  backdrop-filter: blur(2px);
+  border-radius: 10px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  /* border-color: darkslategrey; */
+}
+
+.hourly_card{
+  align-items: center;
+}
+.hourly_row{
+  
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+
+}
+#monthweatherIcon{
+  width:58px;
+  height: 54px;
+}
+
+#weekweatherIcon{
+  width:40px;
+  height: 40px;
+  float: right;
+  margin-top: -9px;
+  display: block;
+  background:rgb(29, 27, 27);
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
+  border-radius: 7px;
+  backdrop-filter: blur(5px);
+  padding:4px;
+}
+
+
+.Infocontainer{
+  display: flex;
+  margin: 5px 10px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.infolabel{
+    width: 36px;
+    height: 36px;
+}
+
+.Infobody{
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  margin: 15px;
+}
+.Infobody span {
+    font-size: 12px;
+    text-transform: capitalize;
+  }
+
+  
+ .weatherInfoContainer{ 
+    display: flex;
+  /* width: 90%; */
+  /* flex-direction: row; */
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap; 
+ }
+
+ .container, .container-fluid{
+  margin-top: 2%;
+ }
+
+ 
